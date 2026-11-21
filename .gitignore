@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+
+# Captures & training artifacts
+captures/*
+!captures/.gitkeep
+runs/
+*.pt
+!models/.gitkeep
+
+# Dataset images/labels (keep folder structure only)
+data/dataset/images/**/*
+!data/dataset/images/**/.gitkeep
+data/dataset/labels/**/*
+!data/dataset/labels/**/.gitkeep
+
+# Exports / local archives / Office temp files
+exports/*
+!exports/.gitkeep
+*.zip
+~$*
+
+# IDE
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/

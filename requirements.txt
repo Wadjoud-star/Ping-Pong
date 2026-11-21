@@ -1,0 +1,8 @@
+# Aligné sur lab05 (AIWithPythonESIGELEC) + pygame pour le jeu.
+# Pour Torch CPU/GPU spécifique : https://pytorch.org/get-started/locally/
+torch>=2.3,<3
+ultralytics>=8.3,<9
+opencv-python>=4.8,<5
+Pillow>=10,<13
+pygame>=2.5,<3
+numpy>=1.24,<3

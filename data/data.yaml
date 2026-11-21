@@ -1,0 +1,8 @@
+# Dataset YOLO — gestes Ping-Pong (enrichi fist)
+path: /Users/wadjoud/Ping-Pong/data/dataset
+train: images/train
+val: images/val
+
+names:
+  0: fist
+  1: open_hand
